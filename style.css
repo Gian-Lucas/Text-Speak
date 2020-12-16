@@ -1,0 +1,26 @@
+body {
+    background-color: #aaf;
+    font-size: 14pt;
+    text-align: center;
+    font-family: arial;
+}
+textarea, button, label {
+    margin: 10px;
+}
+textarea {
+    outline: 0;
+}
+textarea {
+    padding: 5px;
+    font-size: 12pt;
+}
+button {
+    width: max-content;
+    height: 32px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
