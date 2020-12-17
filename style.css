@@ -8,15 +8,23 @@ textarea, button, label {
     margin: 10px;
 }
 textarea {
+    background-color: #ddd;
     outline: 0;
-}
-textarea {
     padding: 5px;
-    font-size: 12pt;
+    font-size: 14pt;
+}
+button:hover {
+    background-color: #bbb;
 }
 button {
-    width: max-content;
-    height: 32px;
+    outline: 0;
+    transition: 0.2s;
+    border: none;
+    background-color: #ddd;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 3.2rem;
 }
 div {
     display: flex;
