@@ -3,7 +3,7 @@ let textInput = document.getElementById('text');
 const voz = new SpeechSynthesisUtterance();
 
 voz.lang = 'pt-br';
-voz.rate = 1.8;
+voz.rate = 1;
 
 
 let voices = speechSynthesis.getVoices();
